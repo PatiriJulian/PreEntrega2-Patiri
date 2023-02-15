@@ -1,12 +1,17 @@
+import { useState } from "react"
+import productos from "../../datos/productos"
 import CardItem from "../CardItem/CardItem"
 
+
 function ItemListContainer(props) {
+    
+    const [items] =useState(productos);
+    
     return (
         <>
-       <CardItem/>
-       <CardItem/>
-       <CardItem/>
-       <CardItem/>
+       {items.map(function(item){
+        return <CardItem item={item}/>
+       })}
        </>
     )
 }
