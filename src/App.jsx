@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/Sections/ItemListContainer';
 import './components/Sections/ItemListContainer.css'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import ItemDetail from './components/Sections/ItemDetail';
 
  
 function App() {
@@ -15,7 +16,8 @@ function App() {
         
           <section class="ItemListContainerWrapper ItemListContainerfont">
             <Routes>
-              <Route path='/' element={<ItemListContainer greetings="hola"/>}/>
+              <Route path='/' element={<ItemListContainer/>}/>
+              <Route path='/producto/:id' element={<ItemDetail/>}/>
             </Routes>
           </section>
         

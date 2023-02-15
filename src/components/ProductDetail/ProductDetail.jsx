@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-import './CardItem.css';
+import './ProductDetail.css';
 
 
-function CardItem(props) {
+function ProdctDetail(props) {
   return (
     <Card className="CardItem" >
       <Card.Img variant="top" src={props.item.pic} />
@@ -13,10 +13,9 @@ function CardItem(props) {
         <Card.Text class= "CardText">
           <p>Categoria {props.item.category}</p><p>Precio ${props.item.price}</p>
         </Card.Text>
-        <Link to={`/producto/${props.item.id}`}><Button class="CardButton">Detalle</Button></Link>
       </Card.Body>
     </Card>
   );
 }
 
-export default CardItem;
+export default ProdctDetail;
