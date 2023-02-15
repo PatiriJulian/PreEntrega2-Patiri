@@ -12,16 +12,13 @@ function NavBar () {
           <div class="navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav NavBarFont">
               <li class="nav-item">
-                <a class="nav-link" href="#">Hombre</a>
+                <a class="nav-link" href="#">Remeras</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Mujer</a>
+                <a class="nav-link" href="#">Pantalones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Niños</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Niñas</a>
+                <a class="nav-link" href="#">Camisas</a>
               </li>
             </ul>            
           </div>
