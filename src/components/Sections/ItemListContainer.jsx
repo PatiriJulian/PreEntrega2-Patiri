@@ -1,6 +1,13 @@
+import CardItem from "../CardItem/CardItem"
+
 function ItemListContainer(props) {
     return (
-        <p>{props.greetings}</p>
+        <>
+       <CardItem/>
+       <CardItem/>
+       <CardItem/>
+       <CardItem/>
+       </>
     )
 }
 export default ItemListContainer
