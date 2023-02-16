@@ -5,9 +5,9 @@ const productos=[
     { id: '4' ,category: 'Pantalones', name: "Producto 4",   price: 25, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/VAQUERO-OSCURO-COMFORT-FIT-HOMBRE-10046193_E1032-500x680.jpg' },
     { id: '5' ,category: 'Pantalones', name: "Producto 5",   price: 36, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/VAQUERO-OSCURO-COMFORT-FIT-HOMBRE-10046193_E1032-500x680.jpg' },
     { id: '6' ,category: 'Pantalones', name: "Producto 6",   price: 74, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/VAQUERO-OSCURO-COMFORT-FIT-HOMBRE-10046193_E1032-500x680.jpg' },
-    { id: '7' ,category: 'Camisa', name: "Producto 7",   price: 85, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/CAMISA-BEIGE-CUADROS-HOMBRE-10046775_101-500x680.jpg' },
-    { id: '8' ,category: 'Camisa', name: "Producto 8",   price: 65, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/CAMISA-BEIGE-CUADROS-HOMBRE-10046775_101-500x680.jpg' },
-    { id: '9' ,category: 'Camisa', name: "Producto 9",   price: 78, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/CAMISA-BEIGE-CUADROS-HOMBRE-10046775_101-500x680.jpg' },
+    { id: '7' ,category: 'Camisas', name: "Producto 7",   price: 85, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/CAMISA-BEIGE-CUADROS-HOMBRE-10046775_101-500x680.jpg' },
+    { id: '8' ,category: 'Camisas', name: "Producto 8",   price: 65, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/CAMISA-BEIGE-CUADROS-HOMBRE-10046775_101-500x680.jpg' },
+    { id: '9' ,category: 'Camisas', name: "Producto 9",   price: 78, pic:'https://brunosmoda.com/wp-content/uploads/2022/08/CAMISA-BEIGE-CUADROS-HOMBRE-10046775_101-500x680.jpg' },
 ];
 
 

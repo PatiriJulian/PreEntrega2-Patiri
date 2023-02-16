@@ -1,6 +1,7 @@
 import CartWidget from "./CartWidget"
 import './NavBar.css'
 import logo from '../../assets/logo.png';
+import { Link } from "react-router-dom";
 
 function NavBar () {
 
@@ -8,17 +9,17 @@ function NavBar () {
     <header class="header NavBarFont">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid NavBarWrapper">
-          <img src={logo} alt="" class="NavBarLogo" />
+          <Link to="/"><img src={logo} alt="" class="NavBarLogo" /></Link>
           <div class="navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav NavBarFont">
               <li class="nav-item">
-                <a class="nav-link" href="#">Remeras</a>
+                <Link class="nav-link" to="/categoria/Remeras">Remeras</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pantalones</a>
+                <Link class="nav-link" to="/categoria/Pantalones">Pantalones</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Camisas</a>
+                <Link class="nav-link" to="/categoria/Camisas">Camisas</Link>
               </li>
             </ul>            
           </div>
