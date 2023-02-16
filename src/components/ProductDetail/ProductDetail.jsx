@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './ProductDetail.css';
 
 
-function ProdctDetail(props) {
+function ProductDetail(props) {
   return (
     <Card className="CardItem" >
       <Card.Img variant="top" src={props.item.pic} />
@@ -13,9 +13,10 @@ function ProdctDetail(props) {
         <Card.Text class= "CardText">
           <p>Categoria {props.item.category}</p><p>Precio ${props.item.price}</p>
         </Card.Text>
+        <Button>Comprar</Button>
       </Card.Body>
     </Card>
   );
 }
 
-export default ProdctDetail;
+export default ProductDetail;
